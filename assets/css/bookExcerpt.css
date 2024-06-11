@@ -1,0 +1,46 @@
+.container_card_infos {
+  background-color: var(--background-color-card);
+  border-radius: 16px;
+  padding: 10px 14px;
+  min-width: 270px;
+  margin-bottom: 25px;
+}
+
+.container_inside_card {
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  padding: 15px 10px;
+}
+
+.container_inside_card h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--font-color-title);
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.container_book_summary {
+  background-image: var(--background-image-checkered);
+  background-size: contain;
+  background-position: center;
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.container_summary {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 15px 10px;
+}
+
+.container_summary p {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 28px;
+  font-style: italic;
+  background-color: var(--background-color-card);
+  padding: 0px 15px;
+  border-radius: 5px;
+}

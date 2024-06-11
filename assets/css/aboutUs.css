@@ -1,0 +1,45 @@
+.container_about_us {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+}
+
+.container_img_about_us {
+  margin-right: 35px;
+}
+
+.container_img_about_us img{
+  max-width: 450px;
+}
+.container_info_about_us {
+  margin: auto;
+}
+
+.info_highlight {
+  font-family: var(--font-highlight) !important;
+  font-weight:normal;
+  margin-bottom: 0px !important;
+}
+
+.container_info_about_us p {
+  font-family: var(--font-subtitle);
+  margin-bottom: 35px;
+  font-size: 1rem;
+}
+
+.container_info_about_us h4 {
+  font-family: var(--font-title);
+  font-size: 3rem;
+  margin: 15px 0px 35px 0px;
+}
+
+.container_info_about_us button {
+  font-family: var(--font-button);
+  padding: 8px 35px;
+  background-color: #E96774;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}

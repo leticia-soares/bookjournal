@@ -1,0 +1,42 @@
+.container_header {
+	background-color: #1A1717;
+	display: flex;
+	width: 100%;
+}
+
+.container_size {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+  padding: 8px 40px;
+  margin: auto;
+}
+
+.logo_book_journal {
+	display: flex;
+}
+
+.logo_book_journal img {
+	width: 15px;
+	padding-right: 15px;
+}
+
+.logo_book_journal p {
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+.menu_style {
+	margin: auto 0;
+}
+.menu_style img {
+	margin: auto;
+	width: 15px;
+}
+
+@media (min-width: 1440px) {
+  .container_size {
+    max-width: 1440px;
+  }
+}

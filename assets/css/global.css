@@ -1,0 +1,55 @@
+:root {
+  --background-color: #9FBC96;
+  --background-color-card: #CAE4CB;
+  --font-color-title: #365629;
+  --font-color-white: #fff;
+  --font-color-black: #000;
+  --background-image-checkered: url('~/assets/img/background_checkered.svg');
+  --background-image-book: url('~/assets/img/background_green.svg');
+  --font-title: 'lobster-regular';
+  --font-subtitle: 'lato-regular';
+  --font-lato-medium: 'lato-medium';
+  --font-highlight: 'gemunu-libre-regular';
+  --font-button: 'lato-bold';
+}
+
+@font-face {
+  font-family: lobster-regular;
+  src: url('~/assets/font/Lobster/Lobster-Regular.ttf');
+}
+
+@font-face {
+  font-family: lato-regular;
+  src: url('~/assets/font/Lato/Lato-Regular.ttf');
+}
+
+@font-face {
+  font-family: lato-medium;
+  src: url('~/assets/font/Lato/Lato-Medium.ttf');
+}
+
+@font-face {
+  font-family: gemunu-libre-regular;
+  src: url('~/assets/font/Gemunu_Libre/GemunuLibre-Regular.ttf');
+}
+
+@font-face {
+  font-family: lato-bold;
+  src: url('~/assets/font/Lato/Lato-bold.ttf');
+}
+
+
+.body_page {
+    padding: 25px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+@media (min-width: 1220px) {
+    .container_page {
+      max-width: 1200px;
+    }
+  }

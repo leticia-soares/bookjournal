@@ -1,0 +1,28 @@
+.hello {
+  background-color: var(--background-color);
+}
+
+.container_book_review {
+  width: 30%;
+  display: flex;
+  margin-right: auto;
+  flex-direction: column; /* Garante que o conteúdo seja empilhado verticalmente */
+}
+
+.container_book_info {
+  width: 65%;
+  display: flex;
+  flex-direction: column; /* Garante que o conteúdo seja empilhado verticalmente */
+}
+
+.full-height {
+  display: flex;
+  flex-direction: column; /* Garante que o conteúdo dos componentes seja empilhado verticalmente */
+  height: 100%;
+}
+
+.container_books_info {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
