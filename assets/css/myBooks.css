@@ -1,17 +1,22 @@
 .hello {
-  background-color: rgb(238, 238, 238);
+  background-color: #c7c8f5;
 }
 
 .title_page {
-  text-align: center;
+  text-align: left;
   font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
+  font-size: 1.7rem;
+  font-family: var(--font-title);
 }
 
 .container_my_books {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
-  border-bottom: 25px solid #de0d9c;
+  border-bottom: 25px solid #9394e7;
+  border-radius: 5px;
+  margin-bottom: 15px;
 }
 
 .card_books {
@@ -20,7 +25,7 @@
   justify-content: center;
   flex-direction: column;
   border-radius: 15px;
-  padding: 15px 0px;
+  padding: 15px 0px 0px;
   align-items: center;
 }
 

@@ -2,7 +2,7 @@
   <Header />
   <div class="body_page hello">
     <div class="container_page">
-      <h1 class="title_page">Minha biblioteca</h1>
+      <h1 class="title_page">Livros adicionados recentemente</h1>
       <div class="container_my_books">
         <div class="card_books" v-for="(book_avaliation, index) in book_avaliations" :key="index">
           <div class="container_image">
@@ -12,45 +12,31 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
 
+    <div class="container_page">
+      <h1 class="title_page">Livros terminados</h1>
+      <div class="container_my_books">
         <div class="card_books" v-for="(book_avaliation, index) in book_avaliations" :key="index">
           <div class="container_image">
             <img :src="book_avaliation.book_image" :alt="book_avaliation.book_name">
             <div class="overlay">
                 <div class="text">{{ book_avaliation.book_name }}</div>
-            </div>
-          </div>
-          <div>
-            <div v-for="(avaliation_star, index) in book_avaliation.avaliation_stars" :key="index">
-              <img :src="getImageSrc(avaliation_star.avaliation)" alt="">
-            </div>
-            <div v-for="(avaliation_star, index) in book_avaliation.avaliation_stars" :key="index">
-              <div v-if="avaliation_star.value === 5 && avaliation_star.avaliation === true" class="icon_container">
-                <div class="icon">
-                  <img src="~/assets/img/icon_favorite.svg" alt="Avaliation icon">
-                </div>
-              </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
 
+    <div class="container_page">
+      <h1 class="title_page">Todos os livros adicionados</h1>
+      <div class="container_my_books">
         <div class="card_books" v-for="(book_avaliation, index) in book_avaliations" :key="index">
           <div class="container_image">
             <img :src="book_avaliation.book_image" :alt="book_avaliation.book_name">
             <div class="overlay">
                 <div class="text">{{ book_avaliation.book_name }}</div>
-            </div>
-          </div>
-          <div>
-            <div v-for="(avaliation_star, index) in book_avaliation.avaliation_stars" :key="index">
-              <img :src="getImageSrc(avaliation_star.avaliation)" alt="">
-            </div>
-            <div v-for="(avaliation_star, index) in book_avaliation.avaliation_stars" :key="index">
-              <div v-if="avaliation_star.value === 5 && avaliation_star.avaliation === true" class="icon_container">
-                <div class="icon">
-                  <img src="~/assets/img/icon_favorite.svg" alt="Avaliation icon">
-                </div>
-              </div>
             </div>
           </div>
         </div>
